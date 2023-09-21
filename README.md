@@ -1,6 +1,7 @@
 # WordRNN: Recurrent Neural Network Language Model
 
-Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on several Jack London's novels.
+Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on several Jack London's novels
+(60 epochs, 1.4Mb of text, 10k words in vocabulary).
 
 ## Getting Started
 
@@ -27,7 +28,7 @@ Explore the capabilities of WordRNN with our provided examples:
 - Generate text for unknown prompts to witness the model's creative language generation.
 
 <p align="left">
-    <img width="80%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 
+    <img width="100%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 
       alt="Structure of the model (layers)">
 </p>
 

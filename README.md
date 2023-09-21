@@ -1,7 +1,11 @@
 # Simple RNN Language Model
 
-Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on two Jack London's novels
-(100 epochs, ~650Kb of text, 10k words in vocabulary, up to a 7-word prompt, generating a 200-word text).
+Quite simple RNN using LSTMs as its main units and words as tokens. <br>The model has been trained on two <b>Jack London</b>'s novels (open source, Project Gutenberg):
+* 360 epochs (with the increasing size of batches);
+* 650KB of text (~93k sentences);
+* 10k words in vocabulary;
+* up to a 7-word prompt;
+* generating a 200-word text.
 
 ## Getting Started
 Requirements: TensorFlow 2.12.1+ and Python 3.9.17+.
@@ -24,9 +28,9 @@ language_model.generate('I scarcely know where to begin... ', temperature=1.5)
 
 Explore the capabilities of WordRNN with our provided examples:
 
-- Test the model's accuracy when given a known prompt.
-- Sample text for known prompts (prompts that were in the training datasets but may not produce the same continuation).
-- Generate text for unknown prompts to witness some creative language generation.
+- Test the model's accuracy when given a known prompt (it will reproduce the chosen part of one of the novels).
+- Sample text for known prompts (it will combine sentences and phrases from the novels).
+- Generate text for unknown prompts to witness some creative language generation (it will generate new phrases).
 
 <p align="left">
     <img width="100%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 

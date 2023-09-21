@@ -1,4 +1,4 @@
-# WordRNN: Recurrent Neural Network Language Model
+# Simple RNN Language Model
 
 Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on several Jack London's novels
 (60 epochs, 1.4Mb of text, 10k words in vocabulary, up to a 10-word prompt, generating a 100-word text).

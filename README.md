@@ -4,6 +4,7 @@ Quite simple RNN using LSTMs as its main units and words as tokens. The model ha
 (60 epochs, 1.4Mb of text, 10k words in vocabulary, up to a 10-word prompt, generating a 100-word text).
 
 ## Getting Started
+Requirements: TensorFlow 2.12.1+ and Python 3.9.17+.
 
 1. Create an instance of the language model based on your choice of RNN architecture.
 

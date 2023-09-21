@@ -30,7 +30,8 @@ Explore the capabilities of WordRNN with our provided examples:
 
 - Test the model's accuracy when given a known prompt (it will reproduce the chosen part of one of the novels).
 - Sample text for known prompts (it will combine sentences and phrases from the novels).
-- Generate text for unknown prompts to witness some creative language generation (it will generate new phrases).
+- Generate text for unknown prompts to witness some creative language generation (it will generate completely
+  new phrases or combine the learnt ones to create a new sentence).
 
 <p align="left">
     <img width="100%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 

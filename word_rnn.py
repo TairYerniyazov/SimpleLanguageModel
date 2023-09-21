@@ -173,12 +173,12 @@ language_model.save(saved_model_path)
 language_model.show_structure('structure/model_structure.png')
 *************************************************************** """
 
-# # Testing the accuracy of the model when giving it the known prompt (model capacity,
-# # the prompts have been observed, so we expect to see the original continuation)
-language_model.generate('In the morning it was Henry who ', original_text=True)
+# Testing the accuracy of the model when giving it the known prompt (model capacity,
+# the prompts have been observed, so we expect to see the original continuation)
+language_model.generate('In the morning it was ', original_text=True)
 
-# # Sampling for known prompts (were in the datasets, but next words do not need to be the same)
-language_model.generate('In the morning it was Henry who ', temperature=1.2)
+# Sampling for known prompts (were in the datasets, but next words do not need to be the same)
+language_model.generate('In the morning it was ', temperature=1.3)
 
 # Generating text for unknown prompts
-language_model.generate('I scarcely know where to begin... ', temperature=1.2)
+language_model.generate('The story was very short... ', temperature=1.3)

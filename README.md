@@ -4,7 +4,7 @@ Quite simple RNN using LSTMs as its main units and words as tokens. <br>The mode
 * 360 epochs (with the increasing size of batches);
 * 650KB of text (~93k sentences);
 * 10k words in vocabulary;
-* up to a 7-word prompt;
+* a 5-word prompt;
 * generating a 200-word text.
 
 ## Getting Started

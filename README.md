@@ -14,7 +14,7 @@ Requirements: TensorFlow 2.12.1+ and Python 3.9.17+.
 
 ```python
 # Example for creating an instance of WordRNN
-language_model = WordRNN(dictionary_size=10_000, sentence_length=10)
+language_model = WordRNN(dictionary_size=10_000, sentence_length=5)
 language_model.compile_model()
 ```
 

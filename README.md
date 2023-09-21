@@ -1,7 +1,7 @@
 # Simple RNN Language Model
 
-Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on several Jack London's novels
-(60 epochs, 1.4Mb of text, 10k words in vocabulary, up to a 10-word prompt, generating a 100-word text).
+Quite simple RNN using LSTMs as its main units and words as tokens. The model has been trained on two Jack London's novels
+(100 epochs, ~650Kb of text, 10k words in vocabulary, up to a 7-word prompt, generating a 200-word text).
 
 ## Getting Started
 Requirements: TensorFlow 2.12.1+ and Python 3.9.17+.

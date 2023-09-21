@@ -32,6 +32,13 @@ Explore the capabilities of WordRNN with our provided examples:
       alt="Structure of the model (layers)">
 </p>
 
+While the text may not convey any meaningful message, it is evident that the model has grasped the fundamentals of 
+forming coherent phrases, maintaining the correct grammatical structure and word relationships in some parts of
+the sentences. For instance, it appropriately combines articles with nouns and matches pronouns with verbs. 
+However, it is crucial to note that the dataset used for training is relatively small. 
+Furthermore, it's worth mentioning that when it comes to comprehending the basic connections between 
+individual words in a sentence over extended distances, LSTM units fall short compared to transformers. 
+
 ## Architecture
 
 Use the `show_structure` method to visualize the architecture of your WordRNN model, giving you insights into its layers and structure.

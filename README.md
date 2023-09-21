@@ -26,11 +26,16 @@ Explore the capabilities of WordRNN with our provided examples:
 - Sample text for known prompts (prompts that were in the training datasets but may not produce the same continuation).
 - Generate text for unknown prompts to witness the model's creative language generation.
 
+<p align="left">
+    <img width="60%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 
+      alt="Structure of the model (layers)">
+</p>
+
 ## Architecture
 
 Use the `show_structure` method to visualize the architecture of your WordRNN model, giving you insights into its layers and structure.
 
 <p align="center">
-    <img width="400" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/structure/model_structure.png" 
+    <img width="50%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/structure/model_structure.png" 
       alt="Structure of the model (layers)">
 </p>

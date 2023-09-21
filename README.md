@@ -27,7 +27,7 @@ Explore the capabilities of WordRNN with our provided examples:
 - Generate text for unknown prompts to witness the model's creative language generation.
 
 <p align="left">
-    <img width="60%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 
+    <img width="80%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 
       alt="Structure of the model (layers)">
 </p>
 

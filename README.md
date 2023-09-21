@@ -25,7 +25,7 @@ Explore the capabilities of WordRNN with our provided examples:
 
 - Test the model's accuracy when given a known prompt.
 - Sample text for known prompts (prompts that were in the training datasets but may not produce the same continuation).
-- Generate text for unknown prompts to witness the model's creative language generation.
+- Generate text for unknown prompts to witness some creative language generation.
 
 <p align="left">
     <img width="100%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/example.gif" 

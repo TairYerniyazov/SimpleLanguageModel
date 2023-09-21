@@ -1,6 +1,6 @@
 # Disabling all TensorFlow debugging logs
 import os
-# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 
 # Uncomment if you want to use CPUs only
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"

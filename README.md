@@ -47,7 +47,7 @@ individual words in a sentence over extended distances, LSTM units fall short co
 
 ## Architecture
 
-Use the `show_structure` method to visualize the architecture of your WordRNN model, giving you insights into its layers and structure.
+Use the `show_structure` method to visualise the architecture of the model, giving you insights into its layers and structure.
 
 <p align="center">
     <img width="50%" src="https://github.com/TairYerniyazov/SimpleLanguageModel/blob/main/structure/model_structure.png" 

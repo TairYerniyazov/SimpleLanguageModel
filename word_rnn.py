@@ -96,7 +96,6 @@ class WordRNN(tf.keras.Model):
             tf.keras.layers.Input(shape=(1,), dtype=tf.string),
             self.vectorize_layer
         ])
-        
         return vectorizer
     
     def save(self, file_path):

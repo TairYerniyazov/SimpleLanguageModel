@@ -80,6 +80,7 @@ class WordRNN(tf.keras.Model):
         y = np.array(vectorizer.predict(y))
         y = np.delete(y, np.s_[1:self.sentence_length], 1)
         target_words = np.zeros((len(y), self.dictionary_size))
+        
         for i in range(len(y)):
             target_words[i][y[i]] = 1
         self.output_dictionary = self.vectorize_layer.get_vocabulary()
@@ -95,6 +96,7 @@ class WordRNN(tf.keras.Model):
             tf.keras.layers.Input(shape=(1,), dtype=tf.string),
             self.vectorize_layer
         ])
+        
         return vectorizer
     
     def save(self, file_path):
@@ -106,6 +108,7 @@ class WordRNN(tf.keras.Model):
         with open(file_path + 'vocabulary.pkl', 'rb') as in_file:
             self.output_dictionary = pickle.load(in_file)
         self.vectorize_layer.set_vocabulary(self.output_dictionary)
+        
         # Loading the weights of the model
         self.load_weights(file_path + 'model.tf').expect_partial()
         print("\n>>> Loading the weights from " + file_path 
@@ -113,6 +116,7 @@ class WordRNN(tf.keras.Model):
 
     def generate(self, prompt, temperature=1.0, original_text=False):
         sys.stdout.write("\n\n>>> temperature=" + str(temperature) + " \n\n")
+        
         # Preprocessing the initial input
         sys.stdout.write('Prompt: ' + prompt + '\n\n')
         vectorizer = self._get_vectorizer()
@@ -139,6 +143,7 @@ class WordRNN(tf.keras.Model):
             sys.stdout.flush()
             prompt[0] = np.roll(prompt, -1)
             prompt[0][self.sentence_length - 1] = output
+            
         sys.stdout.write('\n\n')
 
     def show_structure(self, file_path):
